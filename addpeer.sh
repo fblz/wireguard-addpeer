@@ -34,7 +34,7 @@ if [[ $? -ne 0 ]]; then
 fi
 
 if [[ $# -eq 2 ]]; then
-    if [[ -f '${basepath}/profiles/local.profile' ]]; then
+    if [[ -f "${basepath}/profiles/local.profile" ]]; then
         profile='local'
     else
         profile='default'
